@@ -59,9 +59,9 @@ bool splittoparts(const string& line, string& pickUpZone, int& hour) {
             if (index == 1)
                 pickUpZone += c;
             else if (index == 0) {
-                if (!isdigit((unsigned char)c)) {
-					return false;
-				}
+                //if (!isdigit((unsigned char)c)) {
+				//	return false;
+				//}
                 isIdEmpty = false;
             }
             else if (index == 3) {
